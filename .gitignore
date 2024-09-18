@@ -1,0 +1,11 @@
+
+.vs/
+_*/
+temp/
+lib/
+bin/
+
+submodules/
+include/
+
+tools/create_link/.*
