@@ -13,3 +13,12 @@
 [submodule "libs/build_lib"]
 	path = libs/build_lib
 	url = git@github.com:situNagisa/build_lib.git
+[submodule "libs/bit"]
+	path = libs/bit
+	url = git@github.com:libnagisa/bit.git
+[submodule "libs/stl_freestanding/utility"]
+	path = libs/stl_freestanding/utility
+	url = git@github.com:libnagisa/utility.git
+[submodule "libs/stl_freestanding/tuple"]
+	path = libs/stl_freestanding/tuple
+	url = git@github.com:libnagisa/tuple.git
