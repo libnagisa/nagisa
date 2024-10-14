@@ -4,6 +4,7 @@ _*/
 temp/
 lib/
 bin/
+libs/
 
 submodules/
 include/

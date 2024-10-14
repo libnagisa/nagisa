@@ -1,21 +1,21 @@
 [submodule "libs/bit"]
 	path = libs/bit
-	url = git@github.com:libnagisa/bit.git
+	url = https://github.com/libnagisa/bit.git
 [submodule "libs/stl_freestanding/utility"]
 	path = libs/stl_freestanding/utility
-	url = git@github.com:libnagisa/utility.git
+	url = https://github.com/libnagisa/utility.git
 [submodule "libs/stl_freestanding/tuple"]
 	path = libs/stl_freestanding/tuple
-	url = git@github.com:libnagisa/tuple.git
+	url = https://github.com/libnagisa/tuple.git
 [submodule "visual_studio_config"]
 	path = visual_studio_config
 	url = https://github.com/situNagisa/visual_studio.git
 [submodule "libs/concept"]
 	path = libs/concept
-	url = git@github.com:situNagisa/concept.git
+	url = https://github.com/libnagisa/concept.git
 [submodule "libs/type_trait"]
 	path = libs/type_trait
-	url = git@github.com:situNagisa/type_trait.git
+	url = https://github.com/libnagisa/type_trait.git
 [submodule "libs/build_lib"]
 	path = libs/build_lib
-	url = git@github.com:situNagisa/build_lib.git
+	url = https://github.com/libnagisa/build_lib.git
