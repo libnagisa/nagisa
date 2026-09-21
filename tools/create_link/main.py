@@ -31,9 +31,9 @@ def create_link(src, dest):
 
     try:
         os.symlink(src, dest)
-        print(f"硬链接创建成功: {dest} -> {src}")
+        print(f"软链接创建成功: {dest} -> {src}")
     except Exception as e:
-        print(f"创建硬链接失败: {e}")
+        print(f"创建软链接失败: {e}")
 
 
 def find_vcx_project(root_folder):
@@ -54,10 +54,6 @@ def main():
     if len(sys.argv) == 3:
         target_root_dir = os.path.abspath(sys.argv[1])
         submodule_root_dirs = os.path.abspath(sys.argv[2])
-
-    # ok = input(f"this operation will delete all files in {target_root_dir}, ok?[y/n]")
-    # if ok == 'n':
-    #     return
 
     vcxproj_folders = find_vcx_project(submodule_root_dirs)
     print([proj.project_name() for proj in vcxproj_folders])
