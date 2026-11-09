@@ -19,3 +19,9 @@
 [submodule "libs/build_lib"]
 	path = libs/build_lib
 	url = https://github.com/libnagisa/build_lib.git
+[submodule "libs/concurrency"]
+	path = libs/concurrency
+	url = https://github.com/libnagisa/concurrency.git
+[submodule "conversion"]
+	path = conversion
+	url = https://github.com/libnagisa/conversion.git
